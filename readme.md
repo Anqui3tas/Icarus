@@ -5,20 +5,19 @@ Welcome to **Icarus**, the official media server website of Lantea Corp! This we
 ## Features
 
 - **Media Collections**: Browse through movie, TV, and music collections.
-- **Streaming Support**: Enjoy high-quality streaming across devices.
 - **Search & Filter**: Easily find media by title, genre, rating, or year.
 - **Responsive Design**: Optimized for desktop and mobile devices.
-- **Customizable Themes**: Switch between dark and light modes.
 
 ## Preview
 
-![Homepage Preview](https://icarus.lanteacorp.com/assets/homepage_preview.png)
+![Homepage Preview](images/screen_main.jpg)
 *Icarus homepage showcasing the featured media collections.*
 
-![Movie Collection](https://icarus.lanteacorp.com/assets/movie_collection.png)
-*A glimpse of the movie collection page, organized by year.*
+![Movie Collection](images/screen_movie_details.jpg)
+*A glimpse of a movie details page.*
 
-![Mobile View](https://icarus.lanteacorp.com/assets/mobile_view.png)
+![Mobile View](images/mobiledetailview.jpg)
+
 *Responsive mobile layout for on-the-go media browsing.*
 
 ## Installation
@@ -36,7 +35,7 @@ Once installed, you can:
 
 ## Contributing
 
-If you’d like to contribute to the development of this website, feel free to open a pull request or issue on the [GitHub repository](https://github.com/lanteacorp/icarus).
+If you’d like to contribute to the development of this website, feel free to open a pull request or issue on the [GitHub repository](https://github.com/Anqui3tas/Icarus/issues).
 
 ## License
 
@@ -45,5 +44,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ---
 
 **Icarus Media Server**  
-Powered by Lantea Corp  
+Powered by LanteaCorp
 Visit us at [icarus.lanteacorp.com](https://icarus.lanteacorp.com)
