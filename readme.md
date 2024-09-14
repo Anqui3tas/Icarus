@@ -1,6 +1,6 @@
 # Icarus - Media Server Website
 
-Welcome to **Icarus**, the official media server website of Lantea Corp! This website serves as the central hub for streaming and managing content from the Icarus Plex media server.
+Welcome to **Icarus**, the official media server website of LanteaCorp! This website serves as the central hub for streaming and managing content from the Icarus Plex media server.
 
 ## Features
 
@@ -10,14 +10,13 @@ Welcome to **Icarus**, the official media server website of Lantea Corp! This we
 
 ## Preview
 
-![Homepage Preview](images/screen_main.jpg)
+![Homepage Preview](images/readme1.png)
 *Icarus homepage showcasing the featured media collections.*
 
-![Movie Collection](images/screen_movie_details.jpg)
+![Movie Collection](images/readme2.png)
 *A glimpse of a movie details page.*
 
-![Mobile View](images/mobiledetailview.jpg)
-
+![Mobile View](images/readme3.jpeg)
 *Responsive mobile layout for on-the-go media browsing.*
 
 ## Installation
@@ -28,10 +27,9 @@ To set up the project, follow the standard installation procedure for web projec
 
 Once installed, you can:
 
-- Stream media directly from the **Icarus** Plex server.
-- Organize media collections by genre, year, or user ratings.
-- Customize your user profile and preferences.
-- Access the **Admin Dashboard** for server management.
+- Update links to direct to your own docker instance of Icarus Request.
+- Update images to match your instance.
+- Background automatically updates with current images from theMovieDB, simply add your own API key.
 
 ## Contributing
 
