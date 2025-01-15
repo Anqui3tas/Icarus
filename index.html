@@ -292,25 +292,26 @@
   </div>
   <script>
     document.addEventListener("DOMContentLoaded", function() {
-      const apiURL = 'https://sql.lanteacorp.com/get-movies.php';  // Your PHP server endpoint
+      const apiKey = 'ee48e99897613a53c20631a1da5fb117'; // Replace with your ready only TMDB API Key
+      const apiURL = `https://api.themoviedb.org/3/trending/all/day?api_key=${apiKey}`;
       const imageBaseURL = 'https://image.tmdb.org/t/p/original';  // Keep original size for large images
       const container = document.getElementById("background-container");
       const overlay = document.getElementById("black-overlay");
       let images = [];
       let currentIndex = 0;
-  
+
       async function fetchImages() {
         try {
-          const response = await fetch(apiURL);  // Fetch from your PHP server
-          
+          const response = await fetch(apiURL);
+
           if (!response.ok) {
             throw new Error('Network response was not ok ' + response.statusText);
           }
-  
+
           const data = await response.json();
-          
+
           console.log('Fetched data:', data); // Check the structure of the data
-  
+
           // Adjust the mapping based on the data structure
           images = data.results.map(item => {
             // Check if backdrop_path exists
@@ -324,7 +325,7 @@
             }
             return null; // Return null if no backdrop path found
           }).filter(path => path); // Filter out null values
-  
+
           if (images.length > 0) {
             preloadImage(images[0], () => {
               container.style.backgroundImage = `url("${images[0]}")`;
@@ -337,13 +338,13 @@
           console.error('Error fetching images:', error);
         }
       }
-  
+
       function preloadImage(src, callback) {
         const img = new Image();
         img.src = src;
         img.onload = callback;
       }
-  
+
       function changeBackground() {
         const nextIndex = (currentIndex + 1) % images.length;
         preloadImage(images[nextIndex], () => {
@@ -357,10 +358,10 @@
           }, 2000);
         });
       }
-  
+
       fetchImages();
     });
-  </script>
+</script>
 </body>
 
 </html>
