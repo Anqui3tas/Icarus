@@ -30,6 +30,7 @@ Once installed, you can:
 - Update links to direct to your own docker instance of Icarus Request.
 - Update images to match your instance.
 - Background automatically updates with current images from theMovieDB, simply add your own API key.
+- get-movies.php allows you to store the api key securely on a php capable server. (I used IIS for a home test)
 
 ## Contributing
 
@@ -43,4 +44,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 **Icarus Media Server**  
 Powered by LanteaCorp
+Created by Triangle Studios - a LanteaCorp Entertainment company
 Visit us at [icarus.lanteacorp.com](https://icarus.lanteacorp.com)
